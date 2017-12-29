@@ -2,18 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d81bfc5f-27ea-4c05-ac05-e9b7dac6957c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter12/shallownet_animals.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter12/utilities/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter12/utilities/datasets/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter12/utilities/datasets/simple_dataset_loader.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter12/utilities/nn/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter12/utilities/nn/cnn/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter12/utilities/nn/cnn/shallownet.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter12/utilities/nn/neuralnetwork.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter12/utilities/nn/perceptron.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter12/utilities/preprocessing/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter12/utilities/preprocessing/imagetoarray_preprocessor.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter12/utilities/preprocessing/simple_preprocessor.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter13/shallownet_load.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter13/shallownet_train.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter13/utilities/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter13/utilities/datasets/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter13/utilities/datasets/simple_dataset_loader.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter13/utilities/nn/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter13/utilities/nn/cnn/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter13/utilities/nn/cnn/shallownet.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter13/utilities/nn/neuralnetwork.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter13/utilities/nn/perceptron.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter13/utilities/preprocessing/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter13/utilities/preprocessing/imagetoarray_preprocessor.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter13/utilities/preprocessing/simple_preprocessor.py" />
       <change beforePath="$PROJECT_DIR$/.idea/DL4CVStarterBundle.iml" afterPath="$PROJECT_DIR$/.idea/DL4CVStarterBundle.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -37,23 +38,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="shallownet_animals.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter12/shallownet_animals.py">
+      <file leaf-file-name="shallownet_load.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter13/shallownet_load.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1232">
-              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+            <state relative-caret-position="362">
+              <caret line="47" column="72" lean-forward="false" selection-start-line="47" selection-start-column="72" selection-end-line="47" selection-end-column="72" />
               <folding>
-                <element signature="e#0#48#0" expanded="true" />
+                <element signature="e#0#60#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shallownet_cifar10.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter12/shallownet_cifar10.py">
+      <file leaf-file-name="shallownet_train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter13/shallownet_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="48" column="10" lean-forward="false" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+            <state relative-caret-position="374">
+              <caret line="69" column="21" lean-forward="false" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -108,6 +109,8 @@
         <option value="$PROJECT_DIR$/Chapter12/utilities/nn/cnn/__init__.py" />
         <option value="$PROJECT_DIR$/Chapter12/shallownet_animals.py" />
         <option value="$PROJECT_DIR$/Chapter12/shallownet_cifar10.py" />
+        <option value="$PROJECT_DIR$/Chapter13/shallownet_train.py" />
+        <option value="$PROJECT_DIR$/Chapter13/shallownet_load.py" />
       </list>
     </option>
   </component>
@@ -150,35 +153,7 @@
             <path>
               <item name="DL4CVStarterBundle" type="b2602c69:ProjectViewProjectNode" />
               <item name="DL4CVStarterBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter12" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DL4CVStarterBundle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DL4CVStarterBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter12" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DL4CVStarterBundle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DL4CVStarterBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter12" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
-              <item name="nn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DL4CVStarterBundle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DL4CVStarterBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter12" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
-              <item name="nn" type="462c0819:PsiDirectoryNode" />
-              <item name="cnn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DL4CVStarterBundle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DL4CVStarterBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter12" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
-              <item name="preprocessing" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter13" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,15 +173,15 @@
     <option name="myIpythonEnabled" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter11" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter13" />
       <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter12" />
       <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter11" />
       <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter10" />
       <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter10\utilities1" />
-      <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter07" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter11" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -352,6 +327,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48652932" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -359,7 +335,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.488746" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39500734" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39500734" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -412,21 +388,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter11/utilities/nn/perceptron.py" />
-    <entry file="file://$PROJECT_DIR$/Chapter09/stochastic_gradient_descent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter07/knn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter09/regularization.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
@@ -672,6 +633,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="530">
           <caret line="28" column="41" lean-forward="false" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -691,11 +655,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter12/shallownet_animals.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1232">
+        <state relative-caret-position="0">
           <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding>
-            <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/utilities/nn/cnn/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -704,7 +676,27 @@
         <state relative-caret-position="530">
           <caret line="48" column="10" lean-forward="false" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
           <folding>
+            <element signature="e#0#48#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/shallownet_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="69" column="21" lean-forward="false" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+          <folding>
             <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/shallownet_load.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="47" column="72" lean-forward="false" selection-start-line="47" selection-start-column="72" selection-end-line="47" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
           </folding>
         </state>
       </provider>
