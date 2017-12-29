@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d81bfc5f-27ea-4c05-ac05-e9b7dac6957c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter11/convolutions.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter11/jemma.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter12/shallownet_animals.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter12/utilities/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter12/utilities/datasets/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter12/utilities/datasets/simple_dataset_loader.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter12/utilities/nn/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter12/utilities/nn/cnn/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter12/utilities/nn/cnn/shallownet.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter12/utilities/nn/neuralnetwork.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter12/utilities/nn/perceptron.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter12/utilities/preprocessing/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter12/utilities/preprocessing/imagetoarray_preprocessor.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter12/utilities/preprocessing/simple_preprocessor.py" />
       <change beforePath="$PROJECT_DIR$/.idea/DL4CVStarterBundle.iml" afterPath="$PROJECT_DIR$/.idea/DL4CVStarterBundle.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -27,13 +37,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="convolutions.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter11/convolutions.py">
+      <file leaf-file-name="shallownet_animals.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter12/shallownet_animals.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="100" column="4" lean-forward="false" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
+            <state relative-caret-position="1232">
+              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding>
-                <element signature="e#0#46#0" expanded="true" />
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shallownet_cifar10.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter12/shallownet_cifar10.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="530">
+              <caret line="48" column="10" lean-forward="false" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,6 +102,12 @@
         <option value="$PROJECT_DIR$/Chapter10/keras_mnist.py" />
         <option value="$PROJECT_DIR$/Chapter10/keras_cifar10.py" />
         <option value="$PROJECT_DIR$/Chapter11/convolutions.py" />
+        <option value="$PROJECT_DIR$/Chapter12/utilities/preprocessing/imagetoarray_preprocessor.py" />
+        <option value="$PROJECT_DIR$/Chapter12/utilities/nn/cnn/shallownet.py" />
+        <option value="$PROJECT_DIR$/Chapter12/utilities/preprocessing/__init__.py" />
+        <option value="$PROJECT_DIR$/Chapter12/utilities/nn/cnn/__init__.py" />
+        <option value="$PROJECT_DIR$/Chapter12/shallownet_animals.py" />
+        <option value="$PROJECT_DIR$/Chapter12/shallownet_cifar10.py" />
       </list>
     </option>
   </component>
@@ -112,8 +140,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,10 +147,45 @@
               <item name="DL4CVStarterBundle" type="b2602c69:ProjectViewProjectNode" />
               <item name="DL4CVStarterBundle" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DL4CVStarterBundle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DL4CVStarterBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DL4CVStarterBundle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DL4CVStarterBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter12" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DL4CVStarterBundle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DL4CVStarterBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter12" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="nn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DL4CVStarterBundle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DL4CVStarterBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter12" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="nn" type="462c0819:PsiDirectoryNode" />
+              <item name="cnn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DL4CVStarterBundle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DL4CVStarterBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter12" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="preprocessing" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -137,15 +198,15 @@
     <option name="myIpythonEnabled" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter11" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter12" />
       <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter11" />
       <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter10" />
       <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter10\utilities1" />
       <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter07" />
-      <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter 08" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter11" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -298,7 +359,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.488746" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25844347" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39500734" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -327,7 +388,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.488746" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25844347" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39500734" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -351,49 +412,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter10/keras_mnist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter10/keras_cifar10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="52" column="24" lean-forward="false" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter10/keras_mnist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter10/keras_cifar10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="52" column="24" lean-forward="false" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter10/perceptron_or.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter11/utilities/nn/perceptron.py" />
-    <entry file="file://$PROJECT_DIR$/Chapter10/perceptron_or.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter11/utilities/nn/perceptron.py" />
     <entry file="file://$PROJECT_DIR$/Chapter09/stochastic_gradient_descent.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -629,12 +647,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/utilities/nn/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter11/convolutions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="100" column="4" lean-forward="false" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
+        <state relative-caret-position="266">
+          <caret line="92" column="16" lean-forward="false" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/utilities/preprocessing/imagetoarray_preprocessor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="64" lean-forward="true" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/utilities/nn/cnn/shallownet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="28" column="41" lean-forward="false" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/utilities/preprocessing/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="63" lean-forward="false" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/utilities/nn/cnn/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/shallownet_animals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1232">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding>
-            <element signature="e#0#46#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/shallownet_cifar10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="48" column="10" lean-forward="false" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
