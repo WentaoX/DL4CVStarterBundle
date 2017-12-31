@@ -2,22 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d81bfc5f-27ea-4c05-ac05-e9b7dac6957c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter15/cifar10_minivggnet_with_bn.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter15/cifar10_minivggnet_without_bn.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter15/minivggnet_cifar10.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter15/utilities/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter15/utilities/datasets/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter15/utilities/datasets/simple_dataset_loader.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter15/utilities/nn/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter15/utilities/nn/cnn/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter15/utilities/nn/cnn/lenet.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter15/utilities/nn/cnn/minivggnet.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter15/utilities/nn/cnn/shallownet.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter15/utilities/nn/neuralnetwork.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter15/utilities/nn/perceptron.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter15/utilities/preprocessing/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter15/utilities/preprocessing/imagetoarray_preprocessor.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter15/utilities/preprocessing/simple_preprocessor.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter17/cifar10_monitor.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter17/utilities/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter17/utilities/callbacks/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter17/utilities/callbacks/trainingmonitor.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter17/utilities/datasets/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter17/utilities/datasets/simple_dataset_loader.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter17/utilities/nn/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter17/utilities/nn/cnn/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter17/utilities/nn/cnn/lenet.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter17/utilities/nn/cnn/minivggnet.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter17/utilities/nn/cnn/shallownet.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter17/utilities/nn/neuralnetwork.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter17/utilities/nn/perceptron.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter17/utilities/preprocessing/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter17/utilities/preprocessing/imagetoarray_preprocessor.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter17/utilities/preprocessing/simple_preprocessor.py" />
       <change beforePath="$PROJECT_DIR$/.idea/DL4CVStarterBundle.iml" afterPath="$PROJECT_DIR$/.idea/DL4CVStarterBundle.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -41,24 +41,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="minivggnet_cifar10.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter15/minivggnet_cifar10.py">
+      <file leaf-file-name="cifar10_monitor.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter17/cifar10_monitor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="55" column="78" lean-forward="false" selection-start-line="55" selection-start-column="78" selection-end-line="55" selection-end-column="78" />
+            <state relative-caret-position="418">
+              <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="minivggnet.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter15/utilities/nn/cnn/minivggnet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="40" column="10" lean-forward="false" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -71,6 +59,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>BaseLogger</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -118,6 +111,10 @@
         <option value="$PROJECT_DIR$/Chapter15/utilities/nn/cnn/__init__.py" />
         <option value="$PROJECT_DIR$/Chapter15/utilities/nn/cnn/minivggnet.py" />
         <option value="$PROJECT_DIR$/Chapter15/minivggnet_cifar10.py" />
+        <option value="$PROJECT_DIR$/Chapter16/cifar10_lr_decay.py" />
+        <option value="$PROJECT_DIR$/Chapter17/utilities/callbacks/__init__.py" />
+        <option value="$PROJECT_DIR$/Chapter17/utilities/callbacks/trainingmonitor.py" />
+        <option value="$PROJECT_DIR$/Chapter17/cifar10_monitor.py" />
       </list>
     </option>
   </component>
@@ -127,7 +124,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -160,7 +157,7 @@
             <path>
               <item name="DL4CVStarterBundle" type="b2602c69:ProjectViewProjectNode" />
               <item name="DL4CVStarterBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter15" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter17" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,11 +178,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter17" />
+      <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter17\utilities" />
+      <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter16" />
       <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter15" />
       <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter14" />
-      <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter13" />
-      <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter12" />
-      <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter11" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter14\utilities\nn\cnn" />
@@ -334,8 +331,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="676" y="0" width="697" height="735" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48652932" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -343,7 +339,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.488746" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19692533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19676946" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -372,7 +368,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.488746" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39500734" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19676946" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -396,77 +392,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter 08/linearexample.py" />
-    <entry file="file://$USER_HOME$/Documents/Books/Deep Learning for Computer Vision with Python/Starter Bundle/Code/chapter09-optimization_methods/gradient_descent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter09/gradient_descent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-482">
-          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter09/stochastic_gradient_descent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter07/utilities/datasets/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter07/utilities/preprocessing/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter09/utilities/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter09/utilities/datasets/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter09/utilities/preprocessing/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter07/knn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter09/regularization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="48" column="95" lean-forward="false" selection-start-line="48" selection-start-column="95" selection-end-line="48" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter10/__init__.py" />
     <entry file="file://$PROJECT_DIR$/Chapter11/utilities/nn/__init__.py" />
     <entry file="file://$PROJECT_DIR$/Chapter10/utilities/datasets/simpledatasetloader.py" />
@@ -681,9 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
           <caret line="40" column="10" lean-forward="false" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -701,6 +623,85 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="55" column="78" lean-forward="false" selection-start-line="55" selection-start-column="78" selection-end-line="55" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter16/utilities/nn/cnn/lenet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter16/lr_decay_f0.5_plot.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter16/lr_decay_f0.25_plot.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter16/cifar10_lr_decay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="66" column="3" lean-forward="false" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter17/utilities/nn/cnn/lenet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter17/utilities/datasets/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Books/Deep Learning for Computer Vision with Python/Starter Bundle/Code/chapter17-under_over/cifar10_monitor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter17/utilities/callbacks/trainingmonitor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter17/utilities/callbacks/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter17/utilities/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter17/cifar10_monitor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
           <folding />
         </state>
       </provider>
