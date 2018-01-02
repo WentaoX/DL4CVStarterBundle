@@ -58,5 +58,5 @@ class TrainingMonitor(BaseLogger):
             plt.legend()
 
             # save the figure
-            plt.savefig(self.figPath)
+            plt.savefig(self.fig_path)
             plt.close()
