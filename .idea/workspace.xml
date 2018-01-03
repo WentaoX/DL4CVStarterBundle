@@ -2,23 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d81bfc5f-27ea-4c05-ac05-e9b7dac6957c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter18/cifar10_checkpoint_best.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter18/cifar10_checkpoint_improvements.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter18/utilities/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter18/utilities/callbacks/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter18/utilities/callbacks/trainingmonitor.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter18/utilities/datasets/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter18/utilities/datasets/simple_dataset_loader.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter18/utilities/nn/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter18/utilities/nn/cnn/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter18/utilities/nn/cnn/lenet.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter18/utilities/nn/cnn/minivggnet.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter18/utilities/nn/cnn/shallownet.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter18/utilities/nn/neuralnetwork.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter18/utilities/nn/perceptron.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter18/utilities/preprocessing/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter18/utilities/preprocessing/imagetoarray_preprocessor.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter18/utilities/preprocessing/simple_preprocessor.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter19/lenet.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter19/utilities/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter19/utilities/callbacks/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter19/utilities/callbacks/trainingmonitor.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter19/utilities/datasets/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter19/utilities/datasets/simple_dataset_loader.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter19/utilities/nn/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter19/utilities/nn/cnn/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter19/utilities/nn/cnn/lenet.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter19/utilities/nn/cnn/minivggnet.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter19/utilities/nn/cnn/shallownet.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter19/utilities/nn/neuralnetwork.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter19/utilities/nn/perceptron.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter19/utilities/preprocessing/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter19/utilities/preprocessing/imagetoarray_preprocessor.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter19/utilities/preprocessing/simple_preprocessor.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter19/visualize_architecture.py" />
       <change beforePath="$PROJECT_DIR$/.idea/DL4CVStarterBundle.iml" afterPath="$PROJECT_DIR$/.idea/DL4CVStarterBundle.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -35,68 +35,14 @@
     <SUITE FILE_PATH="coverage/DL4CVStarterBundle$perceptron_and.coverage" NAME="perceptron_and Coverage Results" MODIFIED="1513528322845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter10" />
     <SUITE FILE_PATH="coverage/DL4CVStarterBundle$convolutions.coverage" NAME="convolutions Coverage Results" MODIFIED="1514474707915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter11" />
     <SUITE FILE_PATH="coverage/DL4CVStarterBundle$linearexample.coverage" NAME="linearexample Coverage Results" MODIFIED="1510835400313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter 08" />
+    <SUITE FILE_PATH="coverage/DL4CVStarterBundle$visualize_architecture.coverage" NAME="visualize_architecture Coverage Results" MODIFIED="1514987867521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter19" />
     <SUITE FILE_PATH="coverage/DL4CVStarterBundle$nn_mnist.coverage" NAME="nn_mnist Coverage Results" MODIFIED="1513543369243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter10" />
     <SUITE FILE_PATH="coverage/DL4CVStarterBundle$stochastic_gradient_descent.coverage" NAME="stochastic_gradient_descent Coverage Results" MODIFIED="1510848576444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter09" />
     <SUITE FILE_PATH="coverage/DL4CVStarterBundle$gradient_descent.coverage" NAME="gradient_descent Coverage Results" MODIFIED="1510847166806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter09" />
     <SUITE FILE_PATH="coverage/DL4CVStarterBundle$perceptron_xor.coverage" NAME="perceptron_xor Coverage Results" MODIFIED="1513528429128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter10" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cifar10_monitor.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter17/cifar10_monitor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="41" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lenet.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter18/utilities/nn/cnn/lenet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cifar10_checkpoint_improvements.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter18/cifar10_checkpoint_improvements.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cifar10_checkpoint_best.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter18/cifar10_checkpoint_best.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="trainingmonitor.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter17/utilities/callbacks/trainingmonitor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -162,6 +108,7 @@
         <option value="$PROJECT_DIR$/Chapter17/utilities/callbacks/trainingmonitor.py" />
         <option value="$PROJECT_DIR$/Chapter18/cifar10_checkpoint_improvements.py" />
         <option value="$PROJECT_DIR$/Chapter18/cifar10_checkpoint_best.py" />
+        <option value="$PROJECT_DIR$/Chapter19/visualize_architecture.py" />
       </list>
     </option>
   </component>
@@ -171,7 +118,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -204,12 +151,7 @@
             <path>
               <item name="DL4CVStarterBundle" type="b2602c69:ProjectViewProjectNode" />
               <item name="DL4CVStarterBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter17" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DL4CVStarterBundle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DL4CVStarterBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter18" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter19" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -234,11 +176,11 @@
       <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter11" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter19" />
       <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter18" />
       <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter17" />
       <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter17\utilities" />
       <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter16" />
-      <recent name="C:\PythonProjects\DL4CVStarterBundle\Chapter15" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -253,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.convolutions">
+  <component name="RunManager" selected="Python.visualize_architecture">
     <configuration name="convolutions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -311,25 +253,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="perceptron_and" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DL4CVStarterBundle" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter10/perceptron_and.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="perceptron_xor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -349,20 +272,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="visualize_architecture" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter19" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DL4CVStarterBundle" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter19/visualize_architecture.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.perceptron_and" />
-      <item index="1" class="java.lang.String" itemvalue="Python.perceptron_xor" />
-      <item index="2" class="java.lang.String" itemvalue="Python.nn_xor" />
-      <item index="3" class="java.lang.String" itemvalue="Python.nn_mnist" />
-      <item index="4" class="java.lang.String" itemvalue="Python.convolutions" />
+      <item index="0" class="java.lang.String" itemvalue="Python.perceptron_xor" />
+      <item index="1" class="java.lang.String" itemvalue="Python.nn_xor" />
+      <item index="2" class="java.lang.String" itemvalue="Python.nn_mnist" />
+      <item index="3" class="java.lang.String" itemvalue="Python.convolutions" />
+      <item index="4" class="java.lang.String" itemvalue="Python.visualize_architecture" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.convolutions" />
-        <item index="1" class="java.lang.String" itemvalue="Python.nn_mnist" />
-        <item index="2" class="java.lang.String" itemvalue="Python.nn_xor" />
-        <item index="3" class="java.lang.String" itemvalue="Python.perceptron_xor" />
-        <item index="4" class="java.lang.String" itemvalue="Python.perceptron_and" />
+        <item index="0" class="java.lang.String" itemvalue="Python.visualize_architecture" />
+        <item index="1" class="java.lang.String" itemvalue="Python.convolutions" />
+        <item index="2" class="java.lang.String" itemvalue="Python.nn_mnist" />
+        <item index="3" class="java.lang.String" itemvalue="Python.nn_xor" />
+        <item index="4" class="java.lang.String" itemvalue="Python.perceptron_xor" />
       </list>
     </recent_temporary>
   </component>
@@ -383,16 +325,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="0" width="697" height="735" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48652932" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.488746" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48811412" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35976505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17935579" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -445,16 +386,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter10/perceptron_and.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter11/utilities/nn/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/Chapter11/utilities/nn/perceptron.py" />
-    <entry file="file://$PROJECT_DIR$/Chapter11/utilities/nn/neuralnetwork.py" />
     <entry file="file://$PROJECT_DIR$/Chapter10/perceptron_xor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -731,7 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1188">
           <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -751,34 +681,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter17/cifar10_monitor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
+          <caret line="41" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter18/cifar10_checkpoint_improvements.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
+          <caret line="35" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter18/cifar10_checkpoint_best.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter19/utilities/nn/cnn/lenet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter19/lenet.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/keras/utils/vis_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter19/visualize_architecture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
